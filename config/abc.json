@@ -1,8 +1,5 @@
-[
-  {
-    "module" : "dirlister"
-  },
-  {
-    "module" : "environment"
-  }
-]
+
+{
+  "upload_status": false,
+  "interval_seconds": 3600
+}
